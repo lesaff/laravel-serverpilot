@@ -8,6 +8,7 @@ This is a Laravel 5.x wrapper for Dave Rogers' excellent [ServerPilot PHP API](h
 2. Grab ServerPilot's API ID and Key from your SP's admin panel
 3. Set `SERVERPILOT_API_ID` and `SERVERPILOT_API_KEY` in your `.env` file
 4. Edit `app/config/app.php`,
+
 	add the following to your providers' array
 	```
 	Lesaff\LaravelServerPilot\ServerPilotServiceProvider::class,
@@ -35,8 +36,3 @@ For full PHP API usage, please refer to https://github.com/daverogers/serverpilo
 
 by Rudy Affandi (2017)  
 https://githubb.com/lesaff/laravel-serverpilot
-
-
-
-
-** Work in Progress **
