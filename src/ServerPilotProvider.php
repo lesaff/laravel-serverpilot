@@ -15,7 +15,7 @@ class ServerPilotServiceProvider extends ServiceProvider
     public function register()
     {
         //Bind the ServerPilot wrapper class
-        $this->app->bind('Lesaff\LaravelServerPilot\HubSpot', function ($app) {
+        $this->app->bind('Lesaff\LaravelServerPilot\ServerPilot', function ($app) {
 
             $config = [
                 'id' => env('SERVERPILOT_API_ID'),
