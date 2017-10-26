@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b11a6d5b5f30dffd70ea8ce992b646cd",
+    "packages": [
+        {
+            "name": "daverogers/serverpilot-php",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daverogers/serverpilot-php.git",
+                "reference": "a5f846c178b0a6ca6d42d26df08286234cbd9f47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daverogers/serverpilot-php/zipball/a5f846c178b0a6ca6d42d26df08286234cbd9f47",
+                "reference": "a5f846c178b0a6ca6d42d26df08286234cbd9f47",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Rogers",
+                    "email": "redcore@gmail.com"
+                }
+            ],
+            "description": "ServerPilot: the best way to run PHP websites.",
+            "homepage": "https://serverpilot.io/",
+            "keywords": [
+                "api",
+                "control panel",
+                "server management",
+                "serverpilot"
+            ],
+            "time": "2017-06-01T07:20:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

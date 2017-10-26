@@ -1,0 +1,19 @@
+{
+    "name": "lesaff/laravel-serverpilot",
+    "type": "library",
+    "require": {
+        "daverogers/serverpilot-php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lesaff\\LaravelServerPilot\\": "src/"
+        }
+    },    
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudy Affandi",
+            "email": "rudy@adnetinc.com"
+        }
+    ]
+}
